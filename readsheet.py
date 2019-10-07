@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
@@ -14,4 +15,5 @@ def getKeys():
 if __name__ == "__main__":
 	allKeys = getKeys()
 	for key in allKeys:
-		print(key['Key'])
+		if key['Allow RPi'] == 'TRUE':
+			print(key['Key'])
