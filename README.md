@@ -5,6 +5,7 @@ Needs a file called homenetwork_secret.json that contains secret key to connect 
 
 There are two pages in the sheets doc called "IP schema" and "SSH Keys", they are organised as follows:
 
+<pre>
 -------------------------------------------------------------------------------
 Page:IP Schema
 
@@ -17,4 +18,4 @@ Page: SSH-Keys
 Description	      Key	                            dev1      dev2
 dev1 git repo     ssh-rsa aksdjfhklah...          FALSE     TRUE
 dev2 login        ssh-rsa aksdjfhklab...          TRUE      FALSE
-
+</pre>
