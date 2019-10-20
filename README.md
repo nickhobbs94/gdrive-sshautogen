@@ -20,3 +20,13 @@ Description       Key                             dev1      dev2
 dev1 git repo     ssh-rsa aksdjfhklah...          FALSE     TRUE
 dev2 login        ssh-rsa aksdjfhklab...          TRUE      FALSE
 </pre>
+
+## Installation Instructions
+1. Setup an oauth credentials and share your sheet with the credentials' email address. 
+   https://gspread.readthedocs.io/en/latest/
+2. git clone https://github.com/nickhobbs94/gdrive-sshautogen.git
+3. cd gdrive-sshautogen; python3 -m venv env
+4. source env/bin/activate
+5. pip3 install gspread
+6. pip3 install oauth2client
+7. python3 readsheet
